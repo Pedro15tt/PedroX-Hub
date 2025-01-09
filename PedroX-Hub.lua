@@ -144,7 +144,7 @@ OrionLib:MakeNotification(
         {
             Name = "Notification",
             Content = "Please Wait For Loading Code",
-            Image = "rbxassetid://88147973848189",
+            Image = "rbxassetid://131937112547010",
             Time = 7
         }
     )
