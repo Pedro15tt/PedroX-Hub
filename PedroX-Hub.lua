@@ -118,7 +118,7 @@ local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.
 local OrionLib = loadstring(game:HttpGet(("https://raw.githubusercontent.com/shlexware/Orion/main/source")))()
 
 local Window = Fluent:CreateWindow({
-    Title = " Nome Do Seu Hub | Blox Fruits",
+    Title = "PedroX Hub | Blox Fruits",
     SubTitle = "Version 2",
     TabWidth = 160,
     Size = UDim2.fromOffset(530, 350),
@@ -144,13 +144,13 @@ OrionLib:MakeNotification(
         {
             Name = "Notification",
             Content = "Please Wait For Loading Code",
-            Image = "rbxassetid://88147973848189",
+            Image = "rbxassetid://806425765131",
             Time = 7
         }
     )
 _G.lakala = true
 
-setclipboard("Nome Do Seu Hub Is The Best")
+setclipboard(" PedroX Hub")
 
 --Place Id Check
 local id = game.PlaceId
@@ -183,9 +183,9 @@ OldNamecall = hookmetamethod(game, "__namecall", newcclosure(function(...)
 	if (getgenv().ED_AntiKick.CheckCaller and not checkcaller() or true) and stringlower(getnamecallmethod()) == "kick" and ED_AntiKick.Enabled then
 		if getgenv().ED_AntiKick.SendNotifications then
 			StarterGui:SetCore("SendNotification", {
-				Title = "Nome Do Seu Hub",
+				Title = "PedroX Hub",
 				Text = "The script has successfully intercepted an attempted kick.",
-				Icon = "rbxassetid://88147973848189",
+				Icon = "rbxassetid://806425765131",
 				Duration = 2,
 			})
 		end
@@ -198,9 +198,9 @@ end))
 
 if getgenv().ED_AntiKick.SendNotifications then
 	StarterGui:SetCore("SendNotification", {
-		Title = "Nome Do Seu Hub",
+		Title = "PedroX Hub",
 		Text = "Anti-Kick script loaded!",
-		Icon = "rbxassetid://88147973848189",
+		Icon = "rbxassetid://806425765131",
 		Duration = 3,
 	})
 end
@@ -2769,7 +2769,7 @@ end
 
 
 Tabs.Main:AddButton({
-        Title = "Nome Do Seu Hub Discord Server",
+        Title = " Discord Server",
         Description = "Very important",
         Callback = function()
         setclipboard("Discord de vocês")
@@ -7520,7 +7520,7 @@ spawn(function()
         elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709143733" then
             Hop()
             Fluent:Notify({
-                Title = "Nome Do Seu Hub",
+                Title = "PedroX Hub",
                 Content = "Turn Off Find Full Moon",
                 SubContent = "", -- Optional
                 Duration = 5 -- Set to nil to make the notification not disappear
@@ -7528,7 +7528,7 @@ spawn(function()
         elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709150401" then
             Hop()
             Fluent:Notify({
-                Title = "Nome Do Seu Hub",
+                Title = "PedroX Hub",
                 Content = "Hop",
                 SubContent = "", -- Optional
                 Duration = 5 -- Set to nil to make the notification not disappear
@@ -7536,7 +7536,7 @@ spawn(function()
         elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149680" then
             Hop()
             Fluent:Notify({
-                Title = "Nome Do Seu Hub",
+                Title = "PedroX Hub",
                 Content = "Hoping",
                 SubContent = "", -- Optional
                 Duration = 5 -- Set to nil to make the notification not disappear
@@ -7580,8 +7580,8 @@ OrionLib:MakeNotification(
 
 
 Fluent:Notify({
-    Title = "Nome Do Seu Hub",
-    Content = "Thanks For Using Nome Do Seu Hub",
+    Title = "PedroX Hub",
+    Content = "PedroX Hub",
     Duration = 8
 })
 SaveManager:SetLibrary(Fluent)
